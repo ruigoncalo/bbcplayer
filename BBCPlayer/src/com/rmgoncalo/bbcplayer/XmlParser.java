@@ -130,6 +130,9 @@ private static final String logtag = "XmlParser";
      }
     
     /*
+     * Method used to parse the img src element
+     * TODO: Implement this method
+     * 
     private String parseThumbLink(String str) throws XmlPullParserException, IOException {
     	
     	String result = "";
