@@ -10,9 +10,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true"
         android:layout_marginRight="6dip"
-        android:contentDescription="TODO"
-        android:src="@drawable/ic_launcher" />
-    
+        android:contentDescription="@string/desc" />
 
     <TextView
         android:id="@+id/id"
@@ -23,9 +21,9 @@
         android:layout_toRightOf="@id/thumb"
         android:ellipsize="marquee"
         android:singleLine="true"
-        android:text="Id"
+        android:text="@string/id"
         android:textSize="12sp" />
-    
+
     <TextView
         android:id="@+id/title"
         android:layout_width="fill_parent"
@@ -36,8 +34,7 @@
         android:layout_alignWithParentIfMissing="true"
         android:layout_toRightOf="@id/thumb"
         android:gravity="center_vertical"
-        android:text="Title"
+        android:text="@string/title"
         android:textSize="16sp" />
 
-
-</RelativeLayout> 
+</RelativeLayout>
