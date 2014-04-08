@@ -87,7 +87,16 @@ public class XmlParser {
 			}
 		}
 
+		// assign thumb link to thumb variable
 		entry.setThumb(parseThumbLink(entry.getContent()));
+
+		//assign score to rtscore variable
+		//JsonParser jp = new JsonParser();
+		//jp.setUrl(Util.formatURLString(entry.getTitle()));
+		//jp.start();
+		
+		//entry.setRtscore(jp.getScore());
+		//Log.d(logtag, "score: " + entry.getRtscore());
 
 		return entry;
 	}

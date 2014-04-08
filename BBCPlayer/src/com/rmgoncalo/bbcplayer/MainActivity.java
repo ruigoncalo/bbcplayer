@@ -55,10 +55,12 @@ public class MainActivity extends Activity {
 		protected void onPostExecute(List<Entry> entries) {
 			setContentView(R.layout.activity_main);
 			final ListView lv = (ListView) findViewById(R.id.list);
-
+			
 			// TODO: make sortList static
 			Util u = new Util();
 			u.sortList(entries);
+			
+			
 
 			lv.setAdapter(new EntryArrayAdapter(getApplicationContext(),
 					entries));
